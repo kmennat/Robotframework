@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acd15dd-71a4-4c19-998d-a7e98a718b21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Robotframework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Robotframework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Locators/Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/new.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC0001.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC01-kombauLogin.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607799561922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new test robot">
+      <created>1607800355669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607800355669</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new test robot">
+      <created>1607800548865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607800548865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,10 +98,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="new test robot" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1607800354303">
+    <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2" timestamp="1607800547746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607800354303" />
+    <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607800547746" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1607811447200">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607811447200" />
     <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1607800286906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
