@@ -1,6 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../Resources/LoginKeywords.robot
+Variables    ../PageObjects/Locators.py
 
 
 *** Variables ***
@@ -9,8 +10,23 @@ ${Browser}    chrome
 ${username}    user
 ${password}    test
 
+
+
 *** Test Cases ***
 Login Test
-    Open kombau    ${URL}     ${Browser}
-    Login in kombau     ${username}     ${password}
-    kombau schliessen
+    [Tags]    KombauLogin
+    [Setup]      Open kombau    ${URL}     ${Browser}
+    [Teardown]   kombau schliessen
+    Given Login in kombau     ${username}     ${password}
+    ${PageTitle}    Get Title
+    log    ${PageTitle}
+    Then wait until page contains    Kooooo
+    And capture page screenshot    D:/Robotframework/Screenshots/TC01.png
+    ${Speed}=    Get Selenium Speed
+    Log    ${Speed}
+    ${FilterEinstellungValue}=   Get Text    ${FilterEinstellung}
+    log    ${FilterEinstellungValue}
+
+
+
+

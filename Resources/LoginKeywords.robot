@@ -14,5 +14,9 @@ Login in kombau
     input text    ${txt_passwort}    ${password}
     click button    ${btn_Anmelden}
 
+Check Login
+    ${FilterEinstellungValue}=    Get Value    FilterEinstellung
+    log    ${FilterEinstellungValue}
+
 kombau schliessen
     close browser
