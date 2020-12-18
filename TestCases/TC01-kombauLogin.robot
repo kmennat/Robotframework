@@ -10,22 +10,22 @@ ${Browser}    chrome
 ${username}    user
 ${password}    test
 
-
-
 *** Test Cases ***
 Login Test
+    [Documentation]    My first Test in Robotframework
     [Tags]    KombauLogin
     [Setup]      Open kombau    ${URL}     ${Browser}
     [Teardown]   kombau schliessen
     Given Login in kombau     ${username}     ${password}
     ${PageTitle}    Get Title
     log    ${PageTitle}
-    Then wait until page contains    Kooooo
+    Then wait until page contains    Filtereinstellungen
     And capture page screenshot    D:/Robotframework/Screenshots/TC01.png
     ${Speed}=    Get Selenium Speed
     Log    ${Speed}
     ${FilterEinstellungValue}=   Get Text    ${FilterEinstellung}
     log    ${FilterEinstellungValue}
+    Click Logo
 
 
 

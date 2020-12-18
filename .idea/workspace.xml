@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acd15dd-71a4-4c19-998d-a7e98a718b21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/FilterKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageObjects/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/FilterKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/FilterKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TC01-kombauLogin.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC01-kombauLogin.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TC02-kombauFilterAnwenden.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC02-kombauFilterAnwenden.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-screenshot-1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/development/Netze-master" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.robot" />
   </component>
   <component name="SvnConfiguration">
@@ -126,10 +125,11 @@
     </state>
     <state x="464" y="0" key="CommitChangelistDialog2/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608035632516" />
     <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607814092762" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1607884636716">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1608319252474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607884636716" />
+    <state x="632" y="152" key="FileChooserDialogImpl/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608191030447" />
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608319252474" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1607863406763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

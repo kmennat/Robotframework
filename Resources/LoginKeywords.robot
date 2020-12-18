@@ -4,6 +4,7 @@ Variables    ../PageObjects/Locators.py
 
 *** Keywords ***
 Open kombau
+    [Documentation]
     [Arguments]    ${URL}    ${Browser}
     open browser     ${URL}    ${Browser}
     maximize browser window
@@ -18,5 +19,10 @@ Check Login
     ${FilterEinstellungValue}=    Get Value    FilterEinstellung
     log    ${FilterEinstellungValue}
 
+Click Logo
+    click element  //img[@id="logo"]
+    ${Status}    Run Keyword And Return Status    Wait Until Element is Visible    //button[@id="closeFilterPanel"]    5
+    Run Keyword Unless    ${Status}    Wait And Click    //img[@id="logo"]
+    LOG    ${Status}
 kombau schliessen
     close browser
