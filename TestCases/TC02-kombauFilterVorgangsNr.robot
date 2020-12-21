@@ -9,6 +9,7 @@ ${URL}    https://kombau-au.dbnetze.com/login
 ${Browser}    chrome
 ${username}    user
 ${password}    test
+${VorgangsNr}    20001
 
 *** Test Cases ***
 Filter anwenden
@@ -18,5 +19,14 @@ Filter anwenden
     [Teardown]   kombau schliessen
     Login in kombau     ${username}     ${password}
     wait until page contains    Filtereinstellungen
+    Filter Vorgangs-Nr   ${VorgangsNr}
+    Wochentag
+    execute javascript    window.scrollTo(0,1000)
     Filter anwenden
-    wait until page contains    Betroffene Züge
+    wait until page contains    20001
+    click link    //a[@id="tabs-tab-LAUFWEGE_TREE"]
+    click element    xpath=(//th[@class="text--font-muted text--font-small"])[6]
+    sleep    10 seconds
+    capture page screenshot    D:/Robotframework/Screenshots/TCVorgan.png
+
+

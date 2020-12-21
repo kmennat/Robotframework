@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20201220 21:03:39.156" rpa="false">
+<suite id="s1" name="TC02-kombauFilterVorgangsNr" source="D:\Robotframework\TestCases\TC02-kombauFilterVorgangsNr.robot">
+<test id="s1-t1" name="Filter anwenden">
+<kw name="Open kombau" library="LoginKeywords" type="setup">
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:39.400" level="INFO">Opening browser 'chrome' to base url 'https://kombau-au.dbnetze.com/login'.</msg>
+<status status="PASS" starttime="20201220 21:03:39.400" endtime="20201220 21:03:44.185"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20201220 21:03:44.186" endtime="20201220 21:03:46.309"></status>
+</kw>
+<status status="PASS" starttime="20201220 21:03:39.399" endtime="20201220 21:03:46.310"></status>
+</kw>
+<kw name="Login in kombau" library="LoginKeywords">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txt_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:46.312" level="INFO">Typing text 'user' into text field 'id:username'.</msg>
+<status status="PASS" starttime="20201220 21:03:46.311" endtime="20201220 21:03:46.495"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txt_passwort}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:46.495" level="INFO">Typing text 'test' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20201220 21:03:46.495" endtime="20201220 21:03:46.666"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_Anmelden}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:46.666" level="INFO">Clicking button 'id:login'.</msg>
+<status status="PASS" starttime="20201220 21:03:46.666" endtime="20201220 21:03:46.759"></status>
+</kw>
+<status status="PASS" starttime="20201220 21:03:46.310" endtime="20201220 21:03:46.759"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>Filtereinstellungen</arg>
+</arguments>
+<status status="PASS" starttime="20201220 21:03:46.760" endtime="20201220 21:03:48.096"></status>
+</kw>
+<kw name="Filter Vorgangs-Nr" library="FilterKeywords">
+<arguments>
+<arg>${VorgangsNr}</arg>
+</arguments>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${txt_VorgangsNr}</arg>
+<arg>${VorgangsNr}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:48.098" level="INFO">Typing text '20001' into text field 'id:vorgnr-0'.</msg>
+<status status="PASS" starttime="20201220 21:03:48.097" endtime="20201220 21:03:52.823"></status>
+</kw>
+<status status="PASS" starttime="20201220 21:03:48.096" endtime="20201220 21:03:52.823"></status>
+</kw>
+<kw name="Wochentag" library="FilterKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${Samstag}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:52.824" level="INFO">Clicking element 'id:Sa'.</msg>
+<status status="PASS" starttime="20201220 21:03:52.824" endtime="20201220 21:03:52.943"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${Sonntag}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:52.944" level="INFO">Clicking element 'id:So'.</msg>
+<status status="PASS" starttime="20201220 21:03:52.943" endtime="20201220 21:03:53.069"></status>
+</kw>
+<status status="PASS" starttime="20201220 21:03:52.823" endtime="20201220 21:03:53.070"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,1000)</arg>
+</arguments>
+<msg timestamp="20201220 21:03:53.071" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20201220 21:03:53.070" endtime="20201220 21:03:53.078"></status>
+</kw>
+<kw name="Filter anwenden" library="FilterKeywords">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>${Btn_Filteranwenden}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:53.079" level="INFO">Clicking button 'id:applyFilter'.</msg>
+<status status="PASS" starttime="20201220 21:03:53.079" endtime="20201220 21:03:53.372"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${BM_Tab}</arg>
+</arguments>
+<msg timestamp="20201220 21:03:53.373" level="INFO">Clicking element 'xpath://a[@id='tabs-tab-BAUSTELLEN_TREE']'.</msg>
+<status status="PASS" starttime="20201220 21:03:53.373" endtime="20201220 21:03:56.417"></status>
+</kw>
+<status status="PASS" starttime="20201220 21:03:53.079" endtime="20201220 21:03:56.417"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>20001</arg>
+</arguments>
+<status status="PASS" starttime="20201220 21:03:56.419" endtime="20201220 21:03:56.468"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>//a[@id="tabs-tab-LAUFWEGE_TREE"]</arg>
+</arguments>
+<msg timestamp="20201220 21:03:56.468" level="INFO">Clicking link '//a[@id="tabs-tab-LAUFWEGE_TREE"]'.</msg>
+<status status="PASS" starttime="20201220 21:03:56.468" endtime="20201220 21:03:57.130"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=(//th[@class="text--font-muted text--font-small"])[6]</arg>
+</arguments>
+<msg timestamp="20201220 21:03:57.131" level="INFO">Clicking element 'xpath=(//th[@class="text--font-muted text--font-small"])[6]'.</msg>
+<status status="PASS" starttime="20201220 21:03:57.130" endtime="20201220 21:03:57.812"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10 seconds</arg>
+</arguments>
+<msg timestamp="20201220 21:04:07.815" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20201220 21:03:57.813" endtime="20201220 21:04:07.815"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<arguments>
+<arg>D:/Robotframework/Screenshots/TCVorgan.png</arg>
+</arguments>
+<msg timestamp="20201220 21:04:08.459" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screenshots/TCVorgan.png"&gt;&lt;img src="../Screenshots/TCVorgan.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201220 21:04:07.815" endtime="20201220 21:04:08.459"></status>
+</kw>
+<kw name="kombau schliessen" library="LoginKeywords" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201220 21:04:08.461" endtime="20201220 21:04:10.700"></status>
+</kw>
+<status status="PASS" starttime="20201220 21:04:08.460" endtime="20201220 21:04:10.701"></status>
+</kw>
+<doc>My first Test in Robotframework Filter anwenden</doc>
+<tags>
+<tag>KombauFilter</tag>
+</tags>
+<status status="PASS" starttime="20201220 21:03:39.398" endtime="20201220 21:04:10.701" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201220 21:03:39.159" endtime="20201220 21:04:10.705"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">KombauFilter</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TC02-kombauFilterVorgangsNr">TC02-kombauFilterVorgangsNr</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

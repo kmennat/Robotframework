@@ -5,9 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageObjects/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/Locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/FilterKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/FilterKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC01-kombauLogin.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC01-kombauLogin.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC02-kombauFilterAnwenden.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC02-kombauFilterAnwenden.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC02-kombauFilterAnwenden.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC02-kombauFilterVorgangsNr.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +29,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/development/Netze-master" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.robot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608035633712</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="neuer TF">
+      <created>1608324317700</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608324317700</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,20 +125,20 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607864133984" />
-    <state x="464" y="0" width="831" height="680" key="CommitChangelistDialog2" timestamp="1608035632516">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2" timestamp="1608324316133">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="464" y="0" key="CommitChangelistDialog2/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608035632516" />
-    <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607814092762" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1608319252474">
+    <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608324316133" />
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1608384621353">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="632" y="152" key="FileChooserDialogImpl/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608191030447" />
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608319252474" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1607863406763">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608384621353" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1608492166066">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607863406762" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1608492166066" />
     <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1608156242862">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

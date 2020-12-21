@@ -6,4 +6,11 @@ Variables    ../PageObjects/Locators.py
 Filter anwenden
     click button     ${Btn_Filteranwenden}
     click element    ${BM_Tab}
-    click element    ${AnzahlBetrfZuege}
+
+Filter Vorgangs-Nr
+    [Arguments]    ${VorgangsNr}
+    input text    ${txt_VorgangsNr}    ${VorgangsNr}
+
+Wochentag
+    click element    ${Samstag}
+    click element    ${Sonntag}
