@@ -25,8 +25,8 @@ Filter anwenden
     Filter anwenden
     wait until page contains    20001
     click link    //a[@id="tabs-tab-LAUFWEGE_TREE"]
-    click element    xpath=(//th[@class="text--font-muted text--font-small"])[6]
-    sleep    10 seconds
+    #click element    xpath=(//th[@class="text--font-muted text--font-small"])[6]
+    sleep    5 seconds
     capture page screenshot    D:/Robotframework/Screenshots/TCVorgan.png
 
 
