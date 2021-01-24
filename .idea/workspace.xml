@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acd15dd-71a4-4c19-998d-a7e98a718b21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Resources/RegisterKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TC02-Register.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC02-kombauFilterVorgangsNr.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC02-kombauFilterVorgangsNr.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/LoginKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC01-Login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC01-Login.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/063a38a2-4635-4ff1-a302-6f2f3f4f7e57-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/083197d8-ede9-450d-ada6-552fe2ecf632-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/1218babf-7adc-4d2d-9a03-07a3faf0bba4-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/1224a554-3692-4188-a0a7-d45a22f6d2d0-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/12748b96-d400-42d8-af80-7f5d20aaebe4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/12f8be7d-ff4c-4b34-8e10-ad706cf61ee1-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/150411c1-9980-4ad6-976f-dd624a2491f0-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/1e6b09a7-d432-485a-8249-2526559e805a-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/1ea96c2c-78b9-4445-8a74-03ce1adca584-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/2e1c09e6-0cc1-4ea2-be42-c53ddbeffa4e-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/36fa9033-0313-44e0-afc7-e5857a443f39-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/3d51366e-49f6-4a0a-9d5f-6895960d45d0-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/40f3eb3b-fa99-4bf1-b64a-7a813ae791c0-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/46d9bceb-d058-483a-b4ca-478133a770e9-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/4750392f-86fc-4046-9313-a54e82a3fd9d-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/4ad3e3fa-59ea-4659-ab5c-df75ac783bbe-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/6082e96d-b437-4833-afa7-ae6bd08dbef4-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/61d6eaea-3736-4464-a20b-d876e912a4a0-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/63c95a66-2adc-49f3-9193-07796485c275-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/63f626af-2b6b-43f0-81b9-ac0238751a3d-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/66c2ec70-67a9-4aed-9b1c-5aed2373fd62-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/798c9b25-e075-43ba-82e7-6fc7bff3f7bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/9365c0f6-dbd7-4844-a9cc-651bb699d5d4-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/98a07445-56c7-43c4-a219-ae8747bb77d1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/9f40cc22-116d-41b8-b8bf-c48dc5ccdade-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/abc05427-f4de-4146-949c-2b302c6341c1-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/c192aa8b-a0b7-4eee-8ddb-f860a50f8f3b-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/c23097d9-9d68-46c2-95b1-315ea89f6c19-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/da44607f-ff2a-4015-8435-488a39815999-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/dd3fc044-ea22-443d-9209-67595db480ee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/e006fbeb-bb37-48fb-8deb-223b4445e928-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/e811a1e4-1a60-45d5-9792-b1d4f48b4aed-attachment.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/results/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/results/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/results/report.html" afterDir="false" />
@@ -29,9 +66,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608324317700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="neu commit">
+      <created>1608553221563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608553221563</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,26 +164,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new test robot" />
     <MESSAGE value="neuer TF" />
-    <option name="LAST_COMMIT_MESSAGE" value="neuer TF" />
+    <MESSAGE value="neu commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="neu commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607864133984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607864133984" />
-    <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2" timestamp="1608324316133">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608743142336">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="0" key="CommitChangelistDialog2/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608035632516" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608743142336" />
+    <state x="464" y="0" width="831" height="680" key="CommitChangelistDialog2" timestamp="1608553219954">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="464" y="0" key="CommitChangelistDialog2/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608553219954" />
     <state x="309" y="0" width="831" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608324316133" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1608384621353">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="632" y="153" key="FileChooserDialogImpl" timestamp="1610900892720">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="632" y="152" key="FileChooserDialogImpl/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608191030447" />
+    <state x="632" y="153" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1610900892720" />
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608384621353" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1608492166066">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="540" y="259" key="IDE.errors.dialog" timestamp="1609239316207">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="540" y="259" key="IDE.errors.dialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1609239316207" />
+    <state x="690" y="332" key="SettingsEditor" timestamp="1611217621758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="216" y="0" key="SettingsEditor/-1920.0.1280.688/0.0.1920.1032@0.0.1920.1032" timestamp="1608562439890" />
+    <state x="690" y="332" key="SettingsEditor/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1611217621758" />
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1608492166066" />
     <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1608156242862">
       <screen x="0" y="0" width="1280" height="680" />

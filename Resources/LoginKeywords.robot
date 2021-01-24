@@ -1,28 +1,33 @@
 *** Settings ***
 Library    SeleniumLibrary
 Variables    ../PageObjects/Locators.py
+#Library           Screenshot    screenshots    screenshot_module=scrot
+Library           Screenshot    screenshots
+Library           DateTime
 
 *** Keywords ***
-Open kombau
+Open nopcommerce
     [Documentation]
     [Arguments]    ${URL}    ${Browser}
     open browser     ${URL}    ${Browser}
     maximize browser window
 
-Login in kombau
+Login in nopcommerce
     [Arguments]    ${username}  ${password}
-    input text    ${txt_username}    ${username}
+    click element    ${Login}
+    clear element text    ${txt_email}
+    clear element text    ${txt_passwort}
+    sleep    5 seconds
+    input text    ${txt_email}    ${username}
     input text    ${txt_passwort}    ${password}
     click button    ${btn_Anmelden}
 
-Check Login
-    ${FilterEinstellungValue}=    Get Value    FilterEinstellung
-    log    ${FilterEinstellungValue}
+Keyword Screenshot
+    #${ctime}    Get Current Date
+    #Take Screenshot    ${ctime}.jpg
+    #capture page screenshot     ${ctime}TC01.png
+    capture page screenshot     allure_TC01.png
+    #take screenshot    allure_TC01.png
 
-Click Logo
-    click element  //img[@id="logo"]
-    ${Status}    Run Keyword And Return Status    Wait Until Element is Visible    //button[@id="closeFilterPanel"]    5
-    Run Keyword Unless    ${Status}    Wait And Click    //img[@id="logo"]
-    LOG    ${Status}
-kombau schliessen
+nopcommerce schliessen
     close browser

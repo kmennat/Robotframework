@@ -1,51 +1,23 @@
 #Login Page Elemnets
-txt_username="id:username"
-txt_passwort="id:password"
-btn_Anmelden="id:login"
+link_login="xpath://li[@class='item-587'][1]"
+Login="xpath://a[text()='Log in']"
+txt_email="id:Email"
+txt_passwort="id:Password"
+btn_Anmelden="xpath://input[@class='button-1 login-button']"
 
-########## Filter Page Elements ##########
-FilterEinstellung="id:headingComponent"
-Btn_Filteranwenden="id:applyFilter"
 
-########## Allgemeine Filterkriterien ##########
-# Zeitraum
-# Planungswoche
-# Letzte Änderung seit
-# Kombinierte Filterlogik
-# Betriebsstelle
-# VzG-Strecke
-# Vorgangs-Nummer
-txt_VorgangsNr="id:vorgnr-0"
-########## Zugspezifische Filterkriterien ##########
-# Zug Nummer
-ZugNr="id:zugnummer-0"
-# Wochentag
-Montag="id:Mo"
-Dienstag="id:Di"
-Mittwoch="id:Mi"
-Donerstag="id:Do"
-Freitag="id:Fr"
-Samstag="id:Sa"
-Sonntag="id:So"
-# Kundennummer
-Kundennummer="id:kundennummer-0"
-# Fahrplaninstrument
-KS="id:KS"
-QS="id:QS"
-QAP="id:QAP"
-# Regelungen
-Zugausfall="id:Zugausfall"
-Haltausfall="id:Haltausfall"
-Teilausfall="id:Teilausfall"
-Umleitung="id:Umleitung"
-Vorplanabfahrt="id:Vorplanabfahrt"
-# Fahrzeitveränderung [min]
-FahrzeitveränderungMin="id=fahrzVerlMin"
-FahrzeitveränderungMax="id=fahrzVerlMax"
-# Fahrwegveränderung [km]
-FahrwegveränderungMin="id:fahrwVerlMin"
-FahrwegveränderungMax="id:fahrwVerlMax"
-########## Baumaßnahmenspezifische Filterkriterien ##########
-## Baumaßnahmen
-#AnzahlBetrfZuege="xpath://div[@id='background']//span[@class='sc-iRbamj dzuFC']"
-BM_Tab="xpath://a[@id='tabs-tab-BAUSTELLEN_TREE']"
+txt_search="xpath://input[@id='small-searchterms']"
+btn_search="xpath://input[@class='button-1 search-box-button']"
+
+#Register Page Elements
+Register_Link= "xpath://a[text()='Register']"
+RdoBtnGender="xpath://input[@id='gender-male']"
+txt_Firstname="xpath://input[@id='FirstName']"
+txt_Lastname="xpath://input[@id='LastName']"
+txt_emailRg="xpath://input[@id='Email']"
+CheckBxNews="name=Newsletter"
+txt_PwdRegister="xpath://input[@id='Password']"
+txt_ConfirmPassword="xpath://input[@id='ConfirmPassword']"
+btn_Register="xpath://input[@id='register-button']"
+
+SelectDofBirthDay="xpath://select[@name='DateOfBirthDay']"
